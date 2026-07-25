@@ -1,7 +1,24 @@
 aid: corgi
 name: Corgi
-description: Corgi is a company surfaced as a portfolio company of kindred-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Corgi is an AI-native, full-stack business insurance platform for startups, offering
+  modular coverage (Commercial General Liability, Directors & Officers, Tech Errors & Omissions, Cyber,
+  EPLI, and fiduciary) quoted in minutes. Founded in 2024 and based in San Francisco, Corgi is a licensed
+  insurance carrier rather than a broker, underwriting and issuing policies directly with pricing tailored
+  to a startup's stage (pre-seed, Series A, growth). Backed by Kindred Ventures and TCV, the company was
+  reported as an AI insurance unicorn in 2026. This API Evangelist profile was seeded from Kindred
+  Ventures' portfolio; Corgi does not currently publish a public API or developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.corgi.insure/api/og?title=Startup+Insurance%2C+Quoted+in+Minutes&type=page
 url: https://raw.githubusercontent.com/api-evangelist/corgi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Business Insurance
+- Startups
+- Cyber Insurance
+- Artificial Intelligence
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/corgi-vulnerability-disclosure.yml
+- type: Security
+  url: https://corgi.insure/.well-known/security.txt
+- type: DomainSecurity
+  url: security/corgi-domain-security.yml
+- type: WellKnown
+  url: well-known/corgi-well-known.yml
+- type: SecurityTxt
+  url: well-known/corgi-security.txt
 - type: Website
   url: https://corgi.insure/
+- type: Blog
+  url: https://corgi.insure/blog
+- type: SignUp
+  url: https://app.corgi.insure/sign-up
+- type: Login
+  url: https://app.corgi.insure
+- type: TermsOfService
+  url: https://corgi.insure/docs/Corgi%20Terms%20of%20Service.pdf
+- type: PrivacyPolicy
+  url: https://corgi.insure/docs/Corgi%20Privacy%20Policy.pdf
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
