@@ -2,6 +2,13 @@
   "repo": "corgi",
   "feeds": [
     {
+      "source": "https://www.corgi.insure/feed.xml",
+      "feed_url": "https://www.corgi.insure/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://corgi.insure/",
       "feed_url": "https://www.corgi.insure/feed.xml",
       "title": "",
@@ -9,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-20T13:31:34Z"
+  "post_count": 37,
+  "fetched": "2026-08-01T15:49:00Z"
 }
