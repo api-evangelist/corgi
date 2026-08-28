@@ -7,6 +7,17 @@ description: Corgi is an AI-native, full-stack business insurance platform for s
   to a startup's stage (pre-seed, Series A, growth). Backed by Kindred Ventures and TCV, the company was
   reported as an AI insurance unicorn in 2026. This API Evangelist profile was seeded from Kindred
   Ventures' portfolio; Corgi does not currently publish a public API or developer portal.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
